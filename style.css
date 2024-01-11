@@ -1,0 +1,42 @@
+body{
+    background-color: #d1bfa7;
+}
+
+.button {
+        position: relative;
+        background-color: #cfad9f;
+        border: none;
+        font-size: 20px;
+        color: #e9e9e9;
+        padding: 10px;
+        width: 110px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.5s
+      }
+      
+      .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+
+      h4 {
+        line-height: 2 ;
+      }
