@@ -38,7 +38,7 @@ body{
       }
 
       h4 {
-  
+        font-family: 'Vidaloka', serif;
         text-align: center;
       }
 
@@ -57,3 +57,55 @@ body{
       }
 
 
+      #button1 {
+        position: relative;
+        background-color: #a3a3a3;
+        border: none;
+        font-size: 17px;
+        color: #e9e9e9;
+        padding: 10px;
+        width: 170px;
+        height: 50px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      #button2 {
+        position: relative;
+        background-color: #a3a3a3;
+        border: none;
+        font-size: 17px;
+        color: #e9e9e9;
+        padding: 10px;
+        width: 330px;
+        height: 50px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+
+/* HERE STARTS THE JAVAHOME PAGE */
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  background-color: aqua;
+}
+
+#myimage {
+  height: 100px;
+  width: 100px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
