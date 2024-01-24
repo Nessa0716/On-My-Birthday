@@ -95,29 +95,6 @@ body{
 
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  background-color: aqua;
-}
-
-#myimage {
-  height: 100px;
-  width: 100px;
-  display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-
-
-
-
-
-
-
-
 /* Sticky nav :start */
 
 ul {
@@ -125,7 +102,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #707070;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -144,11 +121,10 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #ff0000;
+li a:hover {
+  background-color: #868686;
+  color:whitesmoke;
 }
 
-.active {
-  background-color: #00ffa2;
-}
+
 /* sticky nav: end */
