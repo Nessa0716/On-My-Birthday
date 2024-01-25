@@ -49,11 +49,11 @@ body{
       }
 
       img {
-        height: 300px;
-        width: 300px;
+        width: 260px;
         display: block;
-  margin-left: auto;
-  margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 5px 20px 5px rgb(94, 94, 94);
 
       }
 
@@ -92,8 +92,9 @@ body{
 
 /* HERE STARTS THE JAVAHOME PAGE */
 
-
-
+#bgcolor {
+background-color: #bdafa0;
+}
 
 /* Sticky nav :start */
 
