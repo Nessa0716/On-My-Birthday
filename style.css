@@ -65,7 +65,7 @@ body{
         font-size: 17px;
         color: #ffffff;
         padding: 10px;
-        width: 170px;
+        width: 330px;
         height: 70px;
         text-align: center;
         transition-duration: 0.4s;
@@ -74,13 +74,15 @@ body{
         cursor: pointer;
       }
       #button2 {
+
+
         position: relative;
         background-color: #43392F;
         border: none;
         font-size: 17px;
         color: #ffffff;
         padding: 10px;
-        width: 330px;
+        width: 170px;
         height: 70px;
         text-align: center;
         transition-duration: 0.4s;
